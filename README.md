@@ -15,6 +15,11 @@ cmake ../
 make -j4
 ```
 
+Tested with HG image:
+```
+uhd_image_loader --args "type=n3xx" --fpga-path=/usr/share/uhd/images/usrp_n300_fpga_HG.bit
+```
+
 ## Running the program
 
 ### Example (Issue 3): Testing spectrum asymmetry
